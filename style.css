@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Lexend Deca;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+    font-weight: 400;
+  }
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(0, 0%, 95%);
+
+}
+.innercontainer{
+    display: flex;
+    flex-direction: row;
+    Font-size: 15px;
+    background-color:hsl(0, 58%, 50%);
+    font-family:  Lexend Deca;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 6rem;
+    border-radius: 2%;
+    justify-content: stretch;
+}
+.inner{
+    padding: 2rem;  
+}
+#inner1{
+    background-color: hsl(31, 77%, 52%);
+    align-self: stretch;
+}
+#inner2{
+    background-color: hsl(184, 100%, 22%);
+    align-self: stretch;
+}
+#inner3{
+    background-color: hsl(179, 100%, 13%);
+    align-self: stretch;
+}
+#inner1 button{
+    color: hsl(31, 77%, 52%);
+}
+#inner2 button{
+    color: hsl(184, 100%, 22%);
+}
+#inner3 button{
+    color: hsl(179, 100%, 13%);
+}
+h2{
+    font-weight: 700;
+}
+
+button{
+   background-color: hsl(0, 0%, 95%);
+   height: 2rem;
+   border-radius: 1rem;
+   border: none;
+   width: 60%;
+}
